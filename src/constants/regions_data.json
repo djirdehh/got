@@ -1,0 +1,32 @@
+{
+   "The North": {
+   		"rulingHouse": "House%20Stark%20of%20Winterfell"
+   },
+   "The Vale of Arryn": {
+   		"rulingHouse": "House%20Arryn%20of%20the%20Eyrie"
+   },
+   "The Riverlands": {
+   		"rulingHouse": "House%20Tully%20of%20Riverrun"
+   },
+   "The Westerlands": {
+   		"rulingHouse": "House%20Lannister%20of%20Casterly%20Rock"
+   },
+   "The Iron Islands": {
+   		"rulingHouse": "House%20Greyjoy%20of%20Pyke"
+   },
+   "The Crownlands": {
+   		"rulingHouse": null
+   },
+   "The Stormlands": {
+   		"rulingHouse": "House%20Baratheon%20of%20Storm%27s%20End"
+   },
+   "The Reach": {
+   		"rulingHouse": "House%20Tyrell%20of%20Highgarden"
+   },
+   "Dorne": {
+   		"rulingHouse": "House%20Nymeros%20Martell%20of%20Sunspear"
+   },
+   "Beyond The Wall": {
+   		"rulingHouse": null
+   }        
+}
