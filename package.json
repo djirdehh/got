@@ -3,14 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "^19.2.2",
     "@types/node": "^7.0.12",
     "@types/react": "^15.0.21",
     "@types/react-dom": "^0.14.23",
+     "@types/request": "0.0.40",
+    "@types/request-promise": "^4.1.33",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
+    "@types/mocha": "^2.2.39",
+    "@types/chai": "^3.4.34",
+    "@types/chai-as-promised": "0.0.29",
+    "@types/chai-http": "0.0.30",
+    "@types/nock": "^8.2.1",
+    "mocha": "3.2.0",
+    "chai": "3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-http": "^3.0.0",
+    "nock": "^9.0.9",
     "react-scripts-ts": "1.2.0"
   },
   "scripts": {
