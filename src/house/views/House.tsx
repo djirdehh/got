@@ -1,45 +1,21 @@
 import * as React from 'react';
-import House from '../models/House'
-import HouseRepository from '../repositories/HouseRepository'
-const house_stark_sigil = require('../../img/house_arryn_sigil.png')
+import House from '../models/House';
 
-class App extends React.Component<{}, null> {
+class HouseComponent extends React.Component<{houseProps: House}, null> {
 
-	public state: any;
+    constructor(props: any) {
+        super(props);
+    }
 
-	constructor() {
-		super();
-
-		this.state = {
-			houses: [],
-			houseName: 'holaa'
-		}
-	}
-
-	componentDidMount() {
-		HouseRepository.getRulingHouses()
-			.then((array: House[]) => {
-				return array;
-			});
-		// this.setState({
-		// 	houses: array
-		// });
-		// HouseRepository.getHouseData()
-		// 	.then((house: House) => {
-		// 		this.setState({
-		// 			houseName: 'spicy'
-		// 		});
-		// 	})
-	}
-
-	render() {
-		return (
-			<div>
-				<h1>{this.state.houseName}</h1>
-				<img src={house_stark_sigil} alt='House Stark Sigil'/>
-			</div>
-		);
-	}
+    render() {
+        return (
+            <div>
+                <h1>{console.log(this.props.houseProps.image)}</h1>
+                <img src={this.props.houseProps.image}/>
+                <img src='../../img/House%20Arryn%20of%20the%20Eyrie_sigil.png'/>
+            </div>
+        );
+    }
 }
 
-export default App;
+export default HouseComponent;
