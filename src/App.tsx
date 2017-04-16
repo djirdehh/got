@@ -1,5 +1,5 @@
 import * as React from 'react';
-import House from './houses/views/House'
+import House from './house/views/House'
 import './App.css';
 
 class App extends React.Component<{}, null> {

@@ -1,6 +1,6 @@
 import 'mocha';
 import * as chai from 'chai';
-import House from '../../../houses/models/House';
+import House from '../../../house/models/House';
 
 const expect = chai.expect;
 

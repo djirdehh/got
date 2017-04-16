@@ -1,7 +1,7 @@
 import 'mocha';
 import * as chai from 'chai';
-import House from '../../../houses/models/House';
-import HouseFactory from '../../../houses/factories/HouseFactory';
+import House from '../../../house/models/House';
+import HouseFactory from '../../../house/factories/HouseFactory';
 
 const expect = chai.expect;
 

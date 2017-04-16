@@ -1,0 +1,10 @@
+[
+    {"ruling_house": "House%20Stark%20of%20Winterfell", "region": "The North"},
+    {"ruling_house": "House%20Arryn%20of%20the%20Eyrie", "region": "The Vale of Arryn"},
+    {"ruling_house": "House%20Tully%20of%20Riverrun", "region": "The Riverlands"},
+    {"ruling_house": "House%20Lannister%20of%20Casterly%20Rock", "region": "The Westerlands"},
+    {"ruling_house": "House%20Greyjoy%20of%20Pyke", "region": "The Iron Islands"},
+    {"ruling_house": "House%20Baratheon%20of%20Storm%27s%20End", "region": "The Stormlands"},
+    {"ruling_house": "House%20Tyrell%20of%20Highgarden", "region": "The Reach"},
+    {"ruling_house": "House%20Nymeros%20Martell%20of%20Sunspear", "region": "Dorne"}
+]

@@ -10,7 +10,7 @@ class HouseFactory implements IFactory<House> {
 		const house = new House();
 		house.name = rawHouseData.name;
 		house.region = rawHouseData.region;
-		house.coatOfArms = rawHouseData.coatOfArms;
+		house.words = rawHouseData.words;
 		return house;
 	}
 }
