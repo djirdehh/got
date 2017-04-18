@@ -10,7 +10,7 @@ class HouseComponent extends React.Component<{houseProps: House}, null> {
     render() {
         return (
             <div>
-                <h1>{console.log(this.props.houseProps)}</h1>
+                <h1>{console.log(this.props.houseProps.image)}</h1>
                 <img src={require(`../../img/${this.props.houseProps.image}`)}/>
             </div>
         );

@@ -16,7 +16,7 @@ class HouseFactory implements IFactory<House> {
         house.currentLord = rawHouseData.currentLord;
         house.heir = rawHouseData.heir;
         house.swornMembers = rawHouseData.swornMembers;
-        house.image = rawHouseData.name + '_sigil.png';
+        house.image = (rawHouseData.name).replace(/ /g,"_") + '_sigil.png'; //Adding underscores spaces
         return house;
     }
 }
