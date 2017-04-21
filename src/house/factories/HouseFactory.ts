@@ -19,6 +19,12 @@ class HouseFactory implements IFactory<House> {
         house.image = (rawHouseData.name).replace(/ /g,"_") + '_sigil.png'; //Adding underscores spaces
         return house;
     }
+
+    public mapOrders(raw: any) {
+        const orders = [];
+        orders.push(raw);
+        return orders;
+    }
 }
 
 export default new HouseFactory();

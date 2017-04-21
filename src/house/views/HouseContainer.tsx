@@ -1,6 +1,6 @@
 import * as React from 'react';
 import House from '../models/House';
-import HouseComponent from './House';
+// import HouseComponent from './House';
 import HouseRepository from '../repositories/HouseRepository';
 
 class HouseContainer extends React.Component<{}, null> {
@@ -10,12 +10,13 @@ class HouseContainer extends React.Component<{}, null> {
     constructor() {
         super();
         this.state = {
-            houses: []
+            houses: [],
+            orders: []
         };
     }
 
     componentDidMount() {
-        HouseRepository.getRulingHouses()
+        HouseRepository.getOrders()
             .then((array: House[]) => {
                 this.setState({
                     houses: array
@@ -26,9 +27,7 @@ class HouseContainer extends React.Component<{}, null> {
     render() {
         return (
             <div>
-                {this.state.houses.map((house: House) => {
-                    return <HouseComponent key={house.id} houseProps={house}/>
-                })}
+                {this.state.orders}
             </div>
         );
     }
